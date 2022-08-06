@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+#head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#banner {
+    border: 1px solid rgb(48,62,71);
+    background-color: rgb(48,62,71);
+    width: 40vw;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+#title {
+ color: rgb(252,90,88);
+ font-size: 50px;
+ font-family: 'Kanit', sans-serif;
+}
+#sub-title {
+color: rgb(252,253,255);
+font-size: 16px;
+padding: 0 0 0 5px;
+
+}
+#health-img {
+    padding-top: 2%;
+    padding-right: 1%;
+}
+#box-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 7% 3%;
+    
+   
+}
+.obese {
+    background-color: rgb(255,158,27);
+    padding: 20px 25px 30px 25px;
+}
+.obese1 {
+    background-color: rgb(0,178,226);
+    padding: 20px 30px 30px 25px;
+}
+#drink {
+    margin-right: 4%;
+}
+.text-1 {
+    font-size: 200%;
+    color: rgb(255,255,250);
+    font-weight: bolder;
+}
+.text-2 {
+    font-size: 17px;
+    color: white;
+    font-weight: bolder;
+}
+.content {
+    font-size: 13px;
+    color: rgb(255, 255, 220);
+    font-weight: normal;
+}
+.obese2 {
+    background-color: rgb(255,89,89);
+    padding: 20px 30px 0 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 10% 0 10%;
+    width: 70%;
+}
+.reasons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    
+}
+.sub-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+    color: rgb(255, 255, 220);
+    font-weight: 100;
+    width: 200px;
+}
+.description {
+    padding: 17px 30px 30px 25px;
+    background-color: rgb(255,89,89);
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 10%;
+    font-size: 11px;
+}
+.box-2 {
+    margin: 0% 0 0 0 ;
+}
+.box-3 {
+    background-color: rgb(0,178,226);
+    padding: 17px 25px 20px 20px;
+    margin: 5% 10% 0 10%;
+}
+#risk {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-spacing: 5%;
+    width: 100%;
+}
+.gap {
+    margin-right: 5%;
+}
+.box-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 7% 3%;
+}
+.sec-1 {
+    background-color:rgb(255,89,89) ;
+    padding: 20px 15px 30px 15px;
+}
+.sec-2 {
+    background-color:rgb(255,158,26) ;
+    padding: 20px 15px 30px 15px;
+}
+.box-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 7% 10%;
+    background-color:rgb(0,178,226) ;
+    padding: 20px 15px 30px 15px;
+
+}
+.box-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 7% 10%;
+    background-color:rgb(255,158,26) ;
+    padding: 20px 15px 30px 15px;
+
+}
+#cycle {
+    margin-top: 10%;
+    margin-right: 7%;
+}
+.sec-3 {
+    background-color:rgb(255,89,89) ;
+    padding: 20px 15px 30px 15px;
+    width: 37%;
+}
+.sec-4 {
+   
+    background-color:rgb(0,178,226) ;
+    padding: 20px 15px 30px 15px;
+    width: 37%;
+}
+@media (max-width: 1075px) {
+    #box-1 {
+        margin: 7% 10%;
+    }
+    .box-4 {
+        margin: 7% 10%;
+    }
+    #cycle {
+       display: none;
+    }
+}
+@media (max-width: 1013px) {
+    #box-1 {
+        margin: 7% 20%;
+        padding: 20px 10px 30px 10px;
+    }
+    
+    .reasons {
+        display: none;
+    }
+    .tv {
+        display: none;
+    }
+    .sub-text {
+        display: none;
+    }
+}
+@media (max-width: 941px) {
+    /* #content-box #box-1 {
+    padding: 0;
+
+    } */
+    .obese {
+        width: 50%;
+    }
+    .obese1 {
+        width: 50%;
+    }
+    
+}
+@media (max-width: 941px) {
+    .text-1 {
+        display: none;
+    }
+    
+}
+@media (max-width: 695px) {
+    #health-img, #heading {
+       width: 300%;
+    }
+    
+}
